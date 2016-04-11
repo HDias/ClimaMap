@@ -9,11 +9,14 @@ module.exports = function(latitude, longitude) {
     .then(function(response) {
       return response.json();
     })
-    .then(function(json){
+    .then(function(json) {
       return {
         city: json.name,
         temperature: json.main.temp + ' °C',
         description: _.capitalize(json.weather[0].description)
       }
+    })
+    .catch(function(error) {
+      console.log(error);
     });
 }
