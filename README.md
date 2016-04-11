@@ -4,15 +4,9 @@
 
   `npm install`
 
-  `react-native android`
+### Run 
 
-  `react-native ios`
-
-  #### Global
-
-  `npm install rnpm -g` Para atualizar configurações de pacotes como 'react-native-maps'. https://github.com/rnpm/rnpm  
-
-### Run
+Tests only in Android
 
   `npm start`
 
@@ -20,11 +14,13 @@
 
   `react-native run-android`,
 
-  `rnpm link` Copia configurações do react-native-maps
-
 ### Observations
 
    To android device it's necessary install `npm install react-native-maps --save` to use <MapView></MapView>. https://github.com/lelandrichardson/react-native-maps
+   
+  Para atualizar configurações de pacotes como 'react-native-maps'. https://github.com/rnpm/rnpm  
+  `npm install rnpm -g` 
+  `rnpm link` Copia configurações do react-native-maps
 
 #### Configurações do react-native-maps
    https://github.com/lelandrichardson/react-native-maps/blob/master/docs/installation.md
@@ -61,3 +57,7 @@
     em
     Rode: react-native run-adroid vá em opções e em 'Debug server host for device' adicion o IP::porta
     https://facebook.github.io/react-native/docs/running-on-device-android.html#content
+    
+  ## To do
+  
+   - Test in IOS
