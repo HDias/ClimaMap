@@ -26,10 +26,10 @@
 
    To android device it's necessary install `npm install react-native-maps --save` to use <MapView></MapView>. https://github.com/lelandrichardson/react-native-maps
 
-   #### Configurações do react-native-maps
+#### Configurações do react-native-maps
    https://github.com/lelandrichardson/react-native-maps/blob/master/docs/installation.md
 
-   #### Para rodar google maps emulador android
+#### Para rodar google maps emulador android
     Baixe:
     - http://google-play-services.br.uptodown.com/android
     - http://www.filedropper.com/comandroidvending-1
@@ -43,7 +43,7 @@
     `export GRADLE_HOME=/home/horecio/android-studio
     export PATH=${PATH}:$GRADLE_HOME/bin%`
 
-  #### Para Rodar no Device
+#### Para Rodar no Device
 
     1º https://facebook.github.io/react-native/docs/getting-started-linux.html#content
 
